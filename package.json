@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "index.js",
+  "main": "app.ts",
   "private": true,
   "scripts": {
-    "prod": "cross-env NODE_ENV=production nodemon app",
-    "dev": "cross-env NODE_ENV=development nodemon app"
+    "prod": "cross-env NODE_ENV=production nodemon",
+    "dev": "cross-env NODE_ENV=development nodemon --exec node --loader ts-node/esm ./app.ts"
   },
   "author": "",
   "license": "ISC",
