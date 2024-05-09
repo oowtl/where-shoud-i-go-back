@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import express, { Express, Request, Response } from 'express';
+import express from 'express';
 
 async function initServer() {
   const app = express();
