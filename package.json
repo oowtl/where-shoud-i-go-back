@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "app.ts",
+  "main": "app.js",
   "private": true,
   "scripts": {
     "prod": "cross-env NODE_ENV=production nodemon",
-    "dev": "cross-env NODE_ENV=development nodemon --exec node --no-warnings=ExperimentalWarning --loader ./src/config/loader.js ./app.ts"
+    "dev": "cross-env NODE_ENV=development nodemon"
   },
   "author": "",
   "license": "ISC",
